@@ -38,6 +38,11 @@ namespace test
             }
         }
 
+        public BaseInfoLogic()
+        {
+            Value = 0;
+        }
+
         public void UpdatePercent(double? total)
         {
             if (total > 0)
